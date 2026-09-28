@@ -23,7 +23,8 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
   'http://localhost:5175',
-  'https://arlenvia-website.vercel.app'
+  'https://arlenvia-website.vercel.app',
+  'https://arlenvia-admin-panel.vercel.app'
 ].filter(Boolean); // Filter out undefined values if any are missing
 
 app.use(
